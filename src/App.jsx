@@ -1,5 +1,6 @@
-import Pizza from "./components/Pizza";
-
+import { Header } from "./components/Header";
+import { Menu } from "./components/Menu";
+import { Footer } from "./components/Footer";
 // const pizzaData = [
 //   {
 //     name: "Focaccia",
@@ -48,10 +49,9 @@ import Pizza from "./components/Pizza";
 export default function App() {
   return (
     <div>
-      <h1>Hello React!</h1>
-      <Pizza />
-      <Pizza />
-      <Pizza />
+      <Header />
+      <Menu />
+      <Footer />
     </div>
   );
 }
