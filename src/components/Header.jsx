@@ -1,3 +1,8 @@
 export const Header = () => {
-  return <h1>Fast React Pizza Co.</h1>;
+  // const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
+  return (
+    <header className="header">
+      <h1>Fast React Pizza Co.</h1>
+    </header>
+  );
 };
