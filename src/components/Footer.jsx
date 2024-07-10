@@ -12,12 +12,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       {isOpen ? (
-        <div className="order">
-          <p>
-            We&apos;re open until {closeHour}:00. Come visit us or order online.
-          </p>
-          <button className="btn">Order</button>
-        </div>
+        <Order closeHour={closeHour} />
       ) : (
         <p>
           We&apos;re happy to welcome you between {openHour}:00 and {closeHour}
@@ -27,3 +22,15 @@ export const Footer = () => {
     </footer>
   );
 };
+
+function Order(props) {
+  return (
+    <div className="order">
+      <p>
+        We&apos;re open until {props.closeHour}:00. Come visit us or order
+        online.
+      </p>
+      <button className="btn">Order</button>
+    </div>
+  );
+}
