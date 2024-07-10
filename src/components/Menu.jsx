@@ -58,11 +58,17 @@ export const Menu = () => {
       <h2>Our Menu</h2>
 
       {numPizzas > 0 ? (
-        <ul className="pizzas">
-          {pizzas.map((pizza) => (
-            <Pizza key={pizza.id} pizzaObj={pizza} />
-          ))}
-        </ul>
+        <>
+          <p>
+            Authentic Italian cuisine. 6 creative dishes to choose from. All
+            from our stone oven, all organic, all delicious.
+          </p>
+          <ul className="pizzas">
+            {pizzas.map((pizza) => (
+              <Pizza key={pizza.id} pizzaObj={pizza} />
+            ))}
+          </ul>
+        </>
       ) : (
         <p>We&apos;re still working on our menu. Please come back later! :)</p>
       )}
