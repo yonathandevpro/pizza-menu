@@ -57,12 +57,14 @@ export const Menu = () => {
     <main className="menu">
       <h2>Our Menu</h2>
 
-      {numPizzas > 0 && (
+      {numPizzas > 0 ? (
         <ul className="pizzas">
           {pizzas.map((pizza) => (
             <Pizza key={pizza.id} pizzaObj={pizza} />
           ))}
         </ul>
+      ) : (
+        <p>We&apos;re still working on our menu. Please come back later! :)</p>
       )}
 
       {/* <Pizza
