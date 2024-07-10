@@ -2,7 +2,7 @@ export const Footer = () => {
   // return React.createElement("footer", null, "We're currently open!");
 
   const hour = new Date().getHours();
-  const openHour = 12;
+  const openHour = 11;
   const closeHour = 22;
   const isOpen = hour >= openHour && hour <= closeHour;
   console.log(isOpen);
@@ -11,7 +11,14 @@ export const Footer = () => {
 
   return (
     <footer className="footer">
-      {new Date().toLocaleTimeString()} We&apos;re currently open
+      {isOpen && (
+        <div className="order">
+          <p>
+            We&apos;re open until {closeHour}:00. Come visit us or order online.
+          </p>
+          <button className="btn">Order</button>
+        </div>
+      )}
     </footer>
   );
 };
