@@ -64,6 +64,7 @@ To use the application, simply open the provided URL from the development server
 
 ## Folder Structure
 
+```markdown
 pizza-menu/
 ├── public/
 │ ├── favicon.png
@@ -118,3 +119,4 @@ This project is licensed under the MIT License.
 ---
 
 Happy coding!
+```
