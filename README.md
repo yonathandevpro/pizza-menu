@@ -87,6 +87,7 @@ pizza-menu/
 ├── index.html
 ├── package.json
 └── vite.config.js
+```
 
 ## Dependencies
 
@@ -119,4 +120,7 @@ This project is licensed under the MIT License.
 ---
 
 Happy coding!
+
+```
+
 ```
