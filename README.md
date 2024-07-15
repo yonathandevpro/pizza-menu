@@ -119,8 +119,8 @@ This project is licensed under the MIT License.
 
 ---
 
-Happy coding!
+Happy coding, Below is my email for inquiries:
 
 ```
-
+yonathan.ber@icloud.com
 ```
