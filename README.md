@@ -117,10 +117,10 @@ We welcome contributions to enhance the project. Here are a few guidelines:
 
 This project is licensed under the MIT License.
 
----
+## Collaborations
 
 Happy coding, Below is my email for inquiries:
 
 ```
-yonathan.ber@icloud.com
+yonathanber@icloud.com
 ```
